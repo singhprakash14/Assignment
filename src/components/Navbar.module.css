@@ -1,0 +1,96 @@
+.main{
+    width: 100%;
+    height: 110px;
+}
+
+.rectangleParent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 9126px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.imageIcon {
+  position: absolute;
+  top: 15px;
+  left: 42px;
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+.contact,
+.education,
+.myStory,
+.shop,
+.sublimationTips {
+  position: absolute;
+  top: 52px;
+  left: 403px;
+  font-size: var(--font-size-sm);
+}
+
+
+.contact,
+.education,
+.myStory,
+.sublimationTips {
+  left: 520px;
+  font-weight: 500;
+}
+.contact,
+.myStory,
+.sublimationTips {
+  left: 684px;
+}
+.contact,
+.myStory {
+  left: 880px;
+}
+.myStory {
+  left: 1000px;
+}
+
+
+.groupIcon,
+.rectangleIcon {
+  position: absolute;
+  top: 55px;
+  left: 1106px;
+  width: 15px;
+}
+
+.rectangleIcon {
+  position: absolute;
+  top: 26px;
+  left: 1656px;
+  width: 122px;
+  height: 78px;
+}
+.rectangleIcon {
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1166px;
+  mix-blend-mode: normal;
+}
+
+
+.groupDiv,
+.loremIpisumAndCustoMizatioParent {
+  position: absolute;
+  top: 224px;
+  left: 276px;
+  width: 570px;
+  height: 508px;
+}
+.groupDiv {
+  top: 5404px;
+  left: 0;
+  width: 1920px;
+  height: 1166px;
+  font-size: var(--font-size-base);
+}
